@@ -3,16 +3,18 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #d8d2bc;
   }
   
   h1 {
-    margin-top: 20px;
+    margin-top: 50px;
+    font-weight: bolder;
+    color: red;
   }
   
   #calculator {
     margin: 20px auto;
-    width: 300px;
+    width: 500px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -32,16 +34,41 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
   }
-  
+  /* for beautiful buttons */
+  /* https://getcssscan.com/css-buttons-examples */
   button {
-    padding: 10px;
-    font-size: 18px;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     cursor: pointer;
+    border-radius: 8px;
+    border-style: none;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    touch-action: manipulation; 
   }
   
   button:hover {
-    background-color: #ccc;
+    background-color: #EA4C89;
   }
-  
+
+  input[type="text"] {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+ 

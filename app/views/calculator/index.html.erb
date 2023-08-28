@@ -6,26 +6,26 @@
   <%= javascript_include_tag 'calculator' %>
 </head>
 <body>
-  <h1>Simple Calculator</h1>
+  <h1>Simple Calculator</h1><br />
   <div id="calculator">
     <input id="result" type="text" readonly>
     <div class="buttons">
       <button class="num">7</button>
       <button class="num">8</button>
       <button class="num">9</button>
-      <button class="operator">+</button>
+      <button class="operator btn btn-outline-primary">+</button>
       <button class="num">4</button>
       <button class="num">5</button>
       <button class="num">6</button>
-      <button class="operator">-</button>
+      <button class="operator btn btn-outline-warning">-</button>
       <button class="num">1</button>
       <button class="num">2</button>
       <button class="num">3</button>
-      <button class="operator">*</button>
-      <button id="clear">C</button>
+      <button class="operator btn btn-outline-info">*</button>
+      <button id="clear" class="btn btn-outline-danger">C</button>
       <button class="num">0</button>
-      <button id="calculate">=</button>
-      <button class="operator">/</button>
+      <button id="calculate" class="btn btn-outline-success">=</button>
+      <button class="operator btn btn-outline-dark">/</button>
     </div>
   </div>
 </body>
